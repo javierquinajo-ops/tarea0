@@ -1,0 +1,5 @@
+GUÍA EXPLICATIVA - PROGRAMACIÓN WEB I
+
+Etiquetas semánticas: header contiene la identidad y navegación; nav agrupa enlaces internos; main contiene el contenido principal; section organiza resumen, temas, episodio, galería y preguntas; article identifica contenidos independientes; figure y figcaption presentan el video y las imágenes con contexto; footer cierra el documento.
+
+Estrategia de fluidez: .contenedor usa width: 92% y max-width: 1100px. Las tarjetas usan display: inline-block y width: 30.7%, con márgenes de 1%; la suma es aproximadamente 98.1%, por lo que tres tarjetas caben de manera proporcional y se ajustan según el ancho disponible. Las imágenes y el iframe tienen width: 100% y max-width: 100%, evitando desbordamientos. No se usan Flexbox, CSS Grid, Media Queries, JavaScript, frameworks ni librerías CSS.
